@@ -1,5 +1,5 @@
 body{
-  background-color: #5DADE2;
+  background-color: #D5F1F0;
 }
 h1{
   font-family: roboto Mono;
@@ -18,7 +18,14 @@ form{
   width: 25%;
   text-align: left;
   border-radius: 8px;
+}
+#a, #b, #c{
+  border-style:solid;
+  height:32px;
 
+}
+span{
+  text-align: center;
 
 }
 #track, #reset{
