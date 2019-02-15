@@ -7,14 +7,14 @@
   <body>
     <h1>Triangle Tracking</h1>
     <p>Kindly enter the dimensions of the Triangle below</p>
-    <form class="entersides" action="index.html" method="post">
-      Side A <input type="number" name="SIDE-A" value="a"><br>
+    <form id="entersides" action="" method="get">
+      Side A <input id="a" type="number" name="a" value=""><br>
+      Side B <input id="b"type="number" name="b" value=""><br>
+      Side C <input id="c"type="number" name="c" value=""><br>
 
-      Side B <input type="number" name="SIDE-B" value="b"><br>
-
-      Side C <input type="number" name="SIDE-C" value="c"><br>
-      <input type="button" name="" value="SUBMIT">  <input type="reset">
+      <input type="button" name="button" onclick="page()" value="TRACK">
     </form>
-
+      <span id="output"></span>
+    <script src="javascript/script.js" charset="utf-8">javascript</script>
   </body>
 </html>
