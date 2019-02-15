@@ -26,9 +26,3 @@ function page () {
         document.getElementById("output").innerHTML=Triangle[3];
       }
   }
-  function validation(){
-    var a2 = document.form["myform"]["a"].value;
-  if a2 ==(" "){
-    alert("A MUST BE FILLED");
-    return false;
-  }

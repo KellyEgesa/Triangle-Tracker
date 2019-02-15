@@ -9,11 +9,11 @@
   <body>
     <h1>Triangle Tracking</h1>
     <p>Kindly enter the dimensions of the Triangle below</p>
-    <form id="entersides" name="myform" action="" onclick="validation()">
+    <form class="entersides" action="">
       LENGTH<input id="a" type="text" name="a" required><br>
       HEIGHT<input id="b" type="text" name="b" required><br>
       BASE<input id="c" type="text" name="c" required><br>
-      <input type="button" name="button" onclick="page()" value="TRACK"><input type="reset" name="" value="RESET">
+      <input id="track" type="button" name="button" onclick="page ()" value="TRACK"><input type="reset" id="reset" name="" value="RESET">
     </form>
       <span id="output"></span>
     <script src="javascript/script.js">javascript</script>

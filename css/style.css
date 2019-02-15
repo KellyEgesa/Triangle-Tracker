@@ -1,12 +1,37 @@
 body{
   text-align: center;
+  background-color: #5DADE2;
 }
 h1{
   font-family: roboto Mono;
+  font-size: 45px;
 }
 p{
-  font-family: Slabo 27px;
+  font-family: monospace;
+  font-size: 36px;
 }
 form{
   font-family: Playfair Display;
+  font-size: 32px;
+}
+#a{
+  LENGTH: 50%;
+  width: 50%;
+}
+.entersides{
+
+}
+#track, #reset{
+  background-color: #FA8072;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 }
