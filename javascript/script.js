@@ -1,26 +1,28 @@
 
 function page () {
-  var Tri = [];
-  var a = parseInt(Tri.push(document.getElementById('a').value));
-  var b = parseInt(Tri.push(document.getElementById('b').value));
-  var c = parseInt(Tri.push(document.getElementById('c').value));
+  
+  var a1 = document.getElementById('a').value;
+  var b1 = document.getElementById('b').value;
+  var c1 = document.getElementById('c').value;
+  var a = parseInt(a1);
+  var b = parseInt(b1);
+  var c = parseInt(c1);
+
   //Business Logic
   var Triangle = ["Equilateral Triangle","Isosceles Triangle","Scalene Triangle","Not a Triangle"];
-  if((a+b)<=c || (b+c)<=a || (c+a)<=b){
+  if(a+b<=c || b+c<=a || c+a<=b){
     document.getElementById("output").innerHTML=Triangle[3];
   }
-  else
-    if (a == c && a==b && b==c){
+  else if (a == c && a==b && b==c){
       document.getElementById("output").innerHTML=Triangle[0];
     }
-    else if(a == c || a==b || b==c){
+  else if(a == c || a==b || b==c){
       document.getElementById("output").innerHTML=Triangle[1];
     }
-    else
-      if( a+b>c || b+c>a || c+b>a){
+  else if( a+b>c || b+c>a || c+b>a){
         document.getElementById("output").innerHTML=Triangle[2];
       }
-      else{
+  else{
         document.getElementById("output").innerHTML=Triangle[3];
       }
   }
