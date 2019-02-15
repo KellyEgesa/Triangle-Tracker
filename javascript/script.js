@@ -1,6 +1,6 @@
 
 function page () {
-  
+
   var a1 = document.getElementById('a').value;
   var b1 = document.getElementById('b').value;
   var c1 = document.getElementById('c').value;
@@ -25,4 +25,10 @@ function page () {
   else{
         document.getElementById("output").innerHTML=Triangle[3];
       }
+  }
+  function validation(){
+    var a2 = document.form["myform"]["a"].value;
+  if a2 ==(" "){
+    alert("A MUST BE FILLED");
+    return false;
   }

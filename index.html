@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <title>Triangle Tracking</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Mono|Slabo+27px" rel="stylesheet">
   </head>
   <body>
     <h1>Triangle Tracking</h1>
     <p>Kindly enter the dimensions of the Triangle below</p>
-    <form id="entersides" action="" method="get">
-      Side A <input id="a" type="text" name="a" ><br>
-      Side B <input id="b" type="text" name="b" ><br>
-      Side C <input id="c" type="text" name="c" ><br>
-      <input type="button" name="button" onclick="page()" value="TRACK">
+    <form id="entersides" name="myform" action="" onclick="validation()">
+      LENGTH<input id="a" type="text" name="a" required><br>
+      HEIGHT<input id="b" type="text" name="b" required><br>
+      BASE<input id="c" type="text" name="c" required><br>
+      <input type="button" name="button" onclick="page()" value="TRACK"><input type="reset" name="" value="RESET">
     </form>
       <span id="output"></span>
     <script src="javascript/script.js">javascript</script>
