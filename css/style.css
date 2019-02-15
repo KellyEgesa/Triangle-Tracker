@@ -15,8 +15,10 @@ form{
   border-style: outset;
   background-color: #adb7bd;
   background-color: #adb7bd;
-  width: 75%;
+  width: 25%;
   text-align: left;
+  border-radius: 8px;
+
 
 }
 #track, #reset{
