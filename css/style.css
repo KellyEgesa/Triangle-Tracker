@@ -1,5 +1,4 @@
 body{
-  text-align: center;
   background-color: #5DADE2;
 }
 h1{
@@ -13,24 +12,21 @@ p{
 form{
   font-family: Playfair Display;
   font-size: 32px;
-}
-#a{
-  LENGTH: 50%;
-  width: 50%;
-}
-.entersides{
+  border-style: outset;
+  background-color: #adb7bd;
+  background-color: #adb7bd;
+  width: 75%;
+  text-align: left;
 
 }
 #track, #reset{
   background-color: #FA8072;
-  border: 2px solid;
-  border-radius: 8px;
-  color: white;
+  border: 1px solid #333333;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 20px;
   padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
+  box-shadow: 0 0 1px #93291b inset;
+  color: #f5f5f5;
+  padding: 5px;
   margin: 8px;
-  cursor: pointer;
-  float: none;
 }
