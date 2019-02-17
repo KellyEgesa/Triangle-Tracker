@@ -5,11 +5,10 @@
 For a triangle to be equilateral all sides of the triangle should be equal,For a triangle to be isosceles two sides of the triangle should be equal,For a triangle to be scalene all sides of the triangle should be equal. A user inputs the values of the sides of the triangle and the program calculates the type of the triangle. In the event that the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values thus the program returns an output that says not a triangle. The output will also be not a triangle in the event a user inputs a value less than 1 which includes 0 and negative numbers.
 ## Behavior Driven Development
 
-|BEHAVIOR                       |Input Example    |Output Example      |
-|Our program should handle:     |When it receives:|It should return:   |
-|-------------------------------|:---------------:|-------------------:|
-|A triangle that all sides are  | Length : 8      |                    |
-|equal                          | Height : 8      |Equilateral Triangle|
+| BEHAVIOR:Our program should handle| Input Example When it receives|Output Example It should return|
+| --- | :---: | :---: |
+| A triangle that all sides are equal  | Length : 8      |                    |
+|                          | Height : 8      |Equilateral Triangle|
 |                               | Base   : 8      |                    |
 |-------------------------------|-----------------|--------------------|
 |A triangle that two sides are  | Length : 9      |                    |
