@@ -7,22 +7,10 @@ For a triangle to be equilateral all sides of the triangle should be equal,For a
 
 | BEHAVIOR:Our program should handle| Input Example When it receives|Output Example It should return|
 | --- | :---: | :---: |
-| A triangle that all sides are equal  | Length : 8      |                    |
-|                          | Height : 8      |Equilateral Triangle|
-|                               | Base   : 8      |                    |
-|-------------------------------|-----------------|--------------------|
-|A triangle that two sides are  | Length : 9      |                    |
-|equal.                         | Height : 9      |Isosceles Triangle  |
-|                               | Base   : 7      |                    |
-|-------------------------------|-----------------|--------------------|
-|A triangle that none of the    | Length : 9      |                    |
-|sides is equal.                | Height : 7      |Scalene Triangle    |
-|                               | Base   : 3      |                    |
-|-------------------------------|-----------------|--------------------|
-||A triangle that the sum of any| Length : 9      |                    |
-|two sides of the triangle is   | Height : 4      | Not a Triangle     |
-|equal to or less than the third| Base   : 3      |                    |
-|remaining side                 |                 |                    |
+| A triangle that all sides are equal| Length : 8 Height : 8 Base : 8|Equilateral Triangle|
+|A triangle that two sides are equal.| Length : 9 Height : 9 Base : 7    |Isosceles Triangle  |
+|A triangle that none of the sides is equal.| Length : 9 Height : 7 Base : 3|Scalene Triangle    |
+|A triangle that the sum of any two sides of the triangle is equal to or less than the third remaining side| Length : 9 Height : 4 Base : 3 |Not a Triangle|
 ## Setup/Installation Requirements
 * Setup git
 * Open the terminal application by either clicking on the terminal icon   or by clicking Ctrl + Shift + T
