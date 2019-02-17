@@ -2,7 +2,7 @@
 #### Helps a user to know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all, Friday 15th February 2019
 #### By **Bartholomew Kelly Egesa**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+For a triangle to be equilateral all sides of the triangle should be equal,For a triangle to be isosceles  sides of the triangle should be equal,For a triangle to be scalene all sides of the triangle should be equal
 ## Setup/Installation Requirements
 * Setup git
 * Open the terminal application by either clicking on the terminal icon   or by clicking Ctrl + Shift + T
