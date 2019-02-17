@@ -22,11 +22,14 @@ form{
 #a, #b, #c{
   border-style:solid;
   height:32px;
-
 }
 span{
+  float: right;
   text-align: center;
-
+  background-color: white;
+  border-style: groove;
+  padding: 15px;
+  font-family: fantasy;
 }
 #track, #reset{
   background-color: #FA8072;

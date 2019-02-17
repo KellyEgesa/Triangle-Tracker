@@ -11,13 +11,13 @@
     <h1>Triangle Tracking</h1>
     <p>Kindly enter the dimensions of the Triangle below</p>
     <form class="entersides" action="">
-      LENGTH:<input id="a" type="number" name="a" required placeholder="Enter Length"><br>
-      HEIGHT:<input id="b" type="number" name="b" required placeholder="Enter Height"><br>
-      BASE:  <input id="c" type="number" name="c" required placeholder="Enter Base"><br>
+      LENGTH:<input id="a" type="number" name="a" required placeholder="Enter Length" min="1"><br>
+      HEIGHT:<input id="b" type="number" name="b" required placeholder="Enter Height" min="1"><br>
+      BASE:  <input id="c" type="number" name="c" required placeholder="Enter Base" min="1"><br>
       <input id="track" type="button" name="button" onclick="page ()" value="TRACK"><input type="reset" id="reset" name="" value="RESET">
     </form>
     </center>
-      <span id="output"></span>
+      <span id="output">Your answer will appear here</span>
     <script src="javascript/script.js">javascript</script>
   </body>
 </html>
